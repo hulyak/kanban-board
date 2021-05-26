@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #7c3773;
+}
+
+header {
+  background-color: #24031f;
+  min-height: 60px;
+  justify-content: center;
+  color: white;
+}
+
+input {
+  border: 0;
+  width: 90%;
+  height: 24px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #bcbcc4;
+  background-color: transparent;
+  margin-top: 5px;
+  font-size: 14px;
+  font-family: inherit;
+  margin-bottom: 5px;
+}
+
+input:focus {
+  outline-color: #fff6c5;
+}
+
+button {
+  width: 90%;
+  height: 40px;
+  font-size: 14px;
+  border: 0;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: opacity 0.4s;
+  color: white;
+  font-family: inherit;
+  background: #a391a1;
+}
+
+header h1 {
+  font-size: 36px;
+  padding-top: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.list {
+  max-width: 250px;
+  border: 1px solid #f69c7e;
+  margin: 20px;
+  border-radius: 10px;
+  color: #f69c7e;
+}
+
+.list .title {
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+.list .item {
+  padding: 5px;
+  border-bottom: 1px solid #7c3773;
+}
+
+.list {
+  color: #7c3773;
+  margin-left: 5px;
+}
+
+.list button {
+  padding: 2px;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #7c3773;
+}
+
+.heading .title {
+  width: 200px;
+}
+
+.heading .add {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
